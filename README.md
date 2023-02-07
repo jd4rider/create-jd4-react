@@ -1,10 +1,10 @@
-# TypeGraphQL & TypeORM Example
+# Create JD4 React App
 
-How To Build a GraphQL API with TypeGraphQL and TypeORM. Read the [article](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/).
+Full stack React app with Typeorm, Express, ApolloGraphql and React Typescript.
 
 **How to use:**
 
 ```
 $ npm install
-$ npm run start
+$ npm run dev
 ```

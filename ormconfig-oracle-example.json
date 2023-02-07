@@ -1,0 +1,13 @@
+
+
+{
+    "type": "oracle",
+    "host": "localhost",
+    "username": "jd4rider",
+    "password": "password",
+    "port": "1521",
+    "serviceName": "XEPDB1",
+    "synchronize": true,
+    "logging": false,
+	"entities": ["server/models/*.ts"]
+}
