@@ -16,7 +16,7 @@ export class BookResolver {
   }
 
   @Mutation(() => Book)
-  async createBook(@Arg("data") data: CreateBookInput) {
+  async createBook(@Arg("data") data: CreateBookInput): Promise<Book> {
     const book = Book.create(data);
     await book.save();
     return book;

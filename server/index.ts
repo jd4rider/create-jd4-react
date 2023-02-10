@@ -14,7 +14,7 @@ async function main() {
   await createConnection();
   const app = express();
   const httpServer = http.createServer(app);
-  const schema = await buildSchema({ resolvers: [BookResolver] });
+  const schema = await buildSchema({ resolvers: [BookResolver], validate: false });
   const server = new ApolloServer({
     schema,
     plugins: [
